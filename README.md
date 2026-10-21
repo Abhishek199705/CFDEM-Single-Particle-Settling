@@ -81,7 +81,7 @@ $$
 | Schillerâ€“Naumann | Approximately 0.137 m/s |
 | CFDâ€“DEM (Di Felice) | Approximately 0.129 m/s |
 
-The CFDâ€“DEM prediction differs by approximately **6%** from the Schillerâ€“Naumann terminal-velocity estimate.
+The CFD-DEM prediction differs by approximately **6%** from the Schiller-Naumann terminal-velocity estimate.
 
 The simulated particle Reynolds number is approximately **1.29**, which is outside the strict creeping-flow regime assumed by Stokes' law.
 

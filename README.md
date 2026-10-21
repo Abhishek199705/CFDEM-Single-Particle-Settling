@@ -11,7 +11,7 @@ particle accelerates and approaches its terminal velocity.
 
 - **OpenFOAM 6:**Fluid-phase simulation
 - **LIGGGHTS-PUBLIC 3.8.0:** Particle dynamics
-- **CFDEMcoupling 3.8.1:** Two-way fluid–particle coupling
+- **CFDEMcoupling 3.8.1:** Two-way fluidâ€“particle coupling
 - **Python:** Data analysis and visualization
 - **Docker:** Linux simulation environment
 
@@ -46,8 +46,8 @@ Gravity acts in the negative y-direction at 9.81 m/s².
 
 | Parameter | Value |
 |---|---|
-| Domain dimensions | 0.01 0.05 �0.01 m |
-| Mesh resolution | 4 20 4 |
+| Domain dimensions | 0.01 0.05 0.01 m |
+| Mesh resolution | (4 20 4) |
 | Total CFD cells | 320 |
 | MPI processes | 2 |
 | Simulation duration | 0.15 s |
@@ -55,7 +55,7 @@ Gravity acts in the negative y-direction at 9.81 m/s².
 
 ## Results and Discussion
 
-The simulated vertical velocity approaches approximately **�0.129 m/s**.
+The simulated vertical velocity approaches approximately **0.129 m/s**.
 
 The velocity curve becomes nearly constant after approximately 0.06 s.
 
@@ -69,7 +69,7 @@ $$
 v_t=-\frac{(\rho_p-\rho_f)gd_p^2}{18\mu}
 $$
 
-**Schiller–Naumann Correlation**
+**Schillerâ€“Naumann Correlation**
 
 $$
 C_D=\frac{24}{Re_p}\left(1+0.15Re_p^{0.687}\right)
@@ -77,15 +77,15 @@ $$
 
 | Method | Terminal Velocity |
 |---|---|
-| Stokes | −0.163 m/s |
-| Schiller–Naumann | Approximately −0.137 m/s |
-| CFD–DEM (Di Felice) | Approximately −0.129 m/s |
+| Stokes | 0.163 m/s |
+| Schillerâ€“Naumann | Approximately 0.137 m/s |
+| CFDâ€“DEM (Di Felice) | Approximately 0.129 m/s |
 
-The CFD–DEM prediction differs by approximately **6%** from the Schiller–Naumann terminal-velocity estimate.
+The CFDâ€“DEM prediction differs by approximately **6%** from the Schillerâ€“Naumann terminal-velocity estimate.
 
 The simulated particle Reynolds number is approximately **1.29**, which is outside the strict creeping-flow regime assumed by Stokes' law.
 
-The closer agreement with Schiller–Naumann is consistent with the importance of finite-Reynolds-number drag corrections.
+The closer agreement with Schillerâ€“Naumann is consistent with the importance of finite-Reynolds-number drag corrections.
 
 ## Acknowledgements
 

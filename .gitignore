@@ -1,0 +1,23 @@
+# OpenFOAM parallel results
+CFD/processor*/
+
+# OpenFOAM generated time directories
+CFD/[1-9]*/
+CFD/0.*/
+
+# Simulation logs
+log.*
+log_*
+
+# DEM simulation outputs
+DEM/post/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Generated CFD mesh
+CFD/constant/polyMesh/

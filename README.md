@@ -85,7 +85,7 @@ The CFD-DEM prediction differs by approximately **6%** from the Schiller-Naumann
 
 The simulated particle Reynolds number is approximately **1.29**, which is outside the strict creeping-flow regime assumed by Stokes' law.
 
-The closer agreement with Schillerâ€“Naumann is consistent with the importance of finite-Reynolds-number drag corrections.
+The closer agreement with Schiller-Naumann is consistent with the importance of finite-Reynolds-number drag corrections.
 
 ## Acknowledgements
 

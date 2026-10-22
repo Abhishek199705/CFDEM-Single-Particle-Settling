@@ -9,9 +9,9 @@ particle accelerates and approaches its terminal velocity.
 
 ## Software and Numerical Methods
 
-- **OpenFOAM 6:**Fluid-phase simulation
+- **OpenFOAM 6:** Fluid-phase simulation
 - **LIGGGHTS-PUBLIC 3.8.0:** Particle dynamics
-- **CFDEMcoupling 3.8.1:** Two-way fluidâ€“particle coupling
+- **CFDEMcoupling 3.8.1:** Two-way fluid-particle coupling
 - **Python:** Data analysis and visualization
 - **Docker:** Linux simulation environment
 

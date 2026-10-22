@@ -78,8 +78,8 @@ $$
 | Method | Terminal Velocity |
 |---|---|
 | Stokes | 0.163 m/s |
-| Schillerâ€“Naumann | Approximately 0.137 m/s |
-| CFDâ€“DEM (Di Felice) | Approximately 0.129 m/s |
+| SchillerandNaumann | Approximately 0.137 m/s |
+| CFD-DEM (Di Felice) | Approximately 0.129 m/s |
 
 The CFD-DEM prediction differs by approximately **6%** from the Schiller-Naumann terminal-velocity estimate.
 

@@ -69,7 +69,7 @@ $$
 v_t=-\frac{(\rho_p-\rho_f)gd_p^2}{18\mu}
 $$
 
-**Schillerâ€“Naumann Correlation**
+**SchillerNaumann Correlation**
 
 $$
 C_D=\frac{24}{Re_p}\left(1+0.15Re_p^{0.687}\right)
